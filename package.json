@@ -1,14 +1,14 @@
 {
   "name": "microcms-typescript",
   "version": "1.0.14",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
     "microcms",
     "typescript"
   ],
   "bin": {
-    "microcms-typescript": "src/index.ts"
+    "microcms-typescript": "dist/index.js"
   },
   "scripts": {
     "start": "ts-node src schema sample/index.ts",
